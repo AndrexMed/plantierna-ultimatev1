@@ -1,0 +1,125 @@
+.detalle{
+    padding:60px;
+    align-items: center;
+}
+
+.detalle-producto{
+    width: 50%;
+    height: auto;
+    padding: 30px;
+    
+    
+}
+
+.imagen-producto{
+    align-items: center;
+}
+
+.imagen-producto img{
+    width: 100%;
+    height: cover;
+    border-radius: 10px;
+    margin-top: 30px;
+    
+  
+}
+
+.fotos-producto{
+    display: flex;
+    justify-content: center;
+    height: cover;
+    padding-top: 10px;
+    
+}
+
+.fotos-producto img{
+    width: 180px;
+    height: cover;
+    margin:10px;
+    align-items:center;
+    border-radius: 10px;
+
+}
+
+.detalle-producto2{   
+    width: 50%;
+    height: auto;
+    padding: 30px;
+    margin: 50px;      
+}
+
+.titulo-producto,
+.precio,
+.cantidad,
+.agregar,
+.footer-contenido-social2{
+    padding: 20px;
+}
+
+
+
+.detalle-producto2 h3{
+    color: black;
+    font-weight: bold; 
+    
+
+    
+}
+
+.detalle-producto2 .agregar a{
+    text-decoration: none;
+    
+    
+}
+
+.footer-contenido-social2 li{
+    display:inline-block;
+    margin-right: 10px; 
+    
+}
+
+.footer-contenido-social2 a{
+    color: darkgreen;
+    font-size: 40px;
+}
+
+.footer-contenido-social2 li i{
+    color: darkgreen;
+}
+
+
+.cantidad h3{
+    width: 120px;
+    background-color:darkgrey;
+    border-radius: 20px;
+    align-items: center;
+    margin: 20px; 
+   text-align: center;
+}
+
+
+
+.agregar{
+    width: 500px;
+    background-color:forestgreen;
+    border-radius: 20px;
+    align-items: center;
+    margin: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+.descripcion{
+    padding: 10px;   
+    
+}
+
+.descripcion h3, p{
+    color: darkgreen;
+    text-align: left;
+    font-weight: bold; 
+    margin-left: 70px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}

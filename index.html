@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Ecommerce Plantierna, Cactus, Suculentas, Macetas</title>
+      <link rel="stylesheet" href="css/estilos.css">
+      <link rel="stylesheet" href="css/whatsapp.css">
+      <link rel="stylesheet" href="css/registro.css">
+      <script src="https://kit.fontawesome.com/4945895636.js" crossorigin="anonymous"></script>
+      <script src="registro.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+      <!-- Comienza header -->
+      <header class="header">
+              <a class="header-item" href="tel:6042775208" target="_blank"><i class="fa-solid fa-phone"></i> (604)2775208 │</a>
+              <a class="header-item" href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i> 3177588701 │</a>
+              <a class="header-item" href="https://mail.google.com/mail/u/0/?ogbl#inbox" target="_blank"><i class="fa-solid fa-envelope"></i> contactoplantierna@gmail.com │</a>  
+              <div class="ic">
+              <a class="header-item" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a class="header-item" href="https://es-la.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>           
+              <a class="header-item" href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>     
+            </div>
+      </header>
+      <!-- Termina header -->
+
+      <!-- Comienza barra de navegación -->
+      <nav class="nav">
+              <a href="index.html"><img src="imagenes/navegacion/lOGO-PLANTIERNABLANCO.png" id="logo" alt="Logo de Plantierna"></a>
+              <input type="checkbox" id="check">
+              <label for="check" class="mostrar-menu">
+                &#8801
+              </label>
+              <div class="menu">
+              <a class="nav-item" href="index.html">Inicio</a>
+              <a class="nav-item" href="productos.html">Productos</a>
+              <a class="nav-item" href="nosotros.html">Nosotros</a>
+              <a class="nav-item" href="blog.html">Blog</a>
+              <a class="nav-item" href="contacto.html">Contacto</a>   
+              <a class="nav-item" href="javascript:abrir()"><span>Acceder/Registrarse</span></a>
+              <label for="check" class="esconder-menu">
+                &#215
+              </label>
+            </div>
+              <a class="nav-item" href="carrito.html"><i class="fa-solid fa-cart-shopping"></i></a> 
+      </nav>
+      <!-- Termina barra de navegación -->
+
+   <!--Inicia ventana emergen de acceder-->
+
+   <div class="conteemerge" id="vent">
+    <a href="javascript:cerrar()"><img src="imagenes/error.png" alt="cerrar" ></a>
+    <h2 class="form_title">INICIA SESIÓN</h2>
+    
+
+  <form action="#" method="POST">
+
+    <label for="correo">Correo Eletrónico</label>
+    <input type="email"  id="correo">
+
+    <label for="clave">Clave</label>
+    <input type="password" id="clave">
+ 
+    <div class="autenticar">
+    <a href="javascript:abrir()"> <p> ¿Olvidaste tu contraseña?</p></a>
+    <p>¿No tienes cuenta? <a href="#">Registrate</a></p>
+    
+      <a href="https://es-la.facebook.com/"><i class="fa-brands fa-facebook"></i>Ingresar con Facebook</a>
+      <a href="https://mail.google.com/mail/u/0/?ogbl#inbox"><i class="fa-brands fa-google"></i>Ingresar con Google</a>
+      
+    </div>
+
+    <br><input type="submit" value="Iniciar Sesión" id="envi">
+  </form>
+</div>    
+
+
+  
+      <!-- Comienza el contenido principal -->
+      <main class="contenido">
+
+          <!-- Comienza la sección de slider -->
+          <section class="slider">
+              <div class="slider-principal">
+                  <ul class="slider-principal-lista">
+                    <li class="slider-principal-lista-item"><img src="imagenes/slider/slider1-1.jpg" alt=""></li>
+                    <li class="slider-principal-lista-item"><img src="imagenes/slider/slider2-2.jpg" alt=""></li>
+                    <li class="slider-principal-lista-item"><img src="imagenes/slider/slider3-3.jpg" alt=""></li>
+                    <li class="slider-principal-lista-item"><img src="imagenes/slider/slider4-4.jpg" alt=""></li>
+                  </ul>
+                </div> 
+          </section>
+          <!-- Finaliza la sección de slider  -->
+      
+          <!-- Comienza la sección de categorias -->
+          <section class="categorias">
+              <div class="categorias-titulo"><h2>NUESTRAS CATEGORIAS</h2></div>
+      
+              <div class="categorias-item">
+                  <div> <a href="productos.html#suculentas"><img src="imagenes/categorias/cat-suculentas.jpg"><h2>Suculentas</h2></a></div>
+                  <div> <a href="productos.html#cactus"><img src="imagenes/categorias/cat-cactus.jpg"><h2>Cactus</h2></a></div>
+                  <div> <a href="productos.html#macetas"><img src="imagenes/categorias/cat-macetas.jpg"><h2>Macetas</h2></a></div>
+                  <div> <a href="productos.html#kitregalo"><img src="imagenes/categorias/cat-regalos.jpg"><h2>Kit Regalo</h2></a></div>
+                  <div> <a href="productos.html#decoracion"><img src="imagenes/categorias/cat-decoracion.jpg"><h2>Decoración</h2></a></div>
+                  <div> <a href="productos.html#abono"><img src="imagenes/categorias/cat-abono.jpg"><h2>Abonos</h2></a></div>
+                  <div> <a href="productos.html#ofertas"><img src="imagenes/categorias/cat-ofertas.jpg"><h2>Ofertas</h2></a></div>
+              </div>    
+          </section>
+          <!-- Finaliza la sección de categorias -->
+
+          <!-- Comienza la sección de diferenciales -->
+          <section class="diferenciales">
+              
+              <h2 class="diferenciales-titulo">¿Porqué comprar con nosotros?</h2>
+              
+            
+              <div class="diferenciales-contenido">
+                      
+                  <div class="diferenciales-contenido-carta">
+                      <i class="fa-solid fa-truck-fast icon-card"></i>
+                      <h3 class="titulo-carta">ENVÍOS NACIONALES Y DOMICILIO EN MEDELLIN</h3>
+                      <p class="descripcion-carta">Medellín y Área Metropolitana: 1-2 días hábiles.<br>Otras ciudades: 3-5 días hábiles.</p>
+                      <a href="entrega.html" role="button" class="boton-carta">       
+                          <span class="boton-carta-texto">Ver más</span>
+                          <i class="boton-carta-icono fas fa-arrow-right"></i>
+                      </a>
+                  </div>
+
+                  <div class="diferenciales-contenido-carta">
+                      <i class="fa-solid fa-credit-card icon-card"></i>
+                      <h3 class="titulo-carta">PÁGO EN LINEA O CONTRA-ENTREGA</h3>
+                      <p class="descripcion-carta">Elíge como pagar. Pasarelas de pago seguras y certificadas.</p>
+                      <a href="entrega.html" role="button" class="boton-carta">       
+                          <span class="boton-carta-texto">Ver más</span>
+                          <i class="boton-carta-icono fas fa-arrow-right"></i>
+                      </a>
+                  </div>
+
+                  <div class="diferenciales-contenido-carta">
+                      <i class="fa-brands fa-whatsapp icon-card"></i>
+                      <h3 class="titulo-carta">ASESORIA PERSONALIZADA</h3>
+                      <p class="descripcion-carta">Escríbenos al WhatsApp 3177588702 y con gusto te asesoramos.</p>
+                      <a href="https://web.whatsapp.com/" role="button" class="boton-carta">       
+                          <span class="boton-carta-texto">Ver más</span>
+                          <i class="boton-carta-icono fas fa-arrow-right"></i>
+                      </a>
+                  </div>
+
+                  <div class="diferenciales-contenido-carta">
+                      <i class="fa-solid fa-gift icon-card"></i>
+                      <h3 class="titulo-carta">REGALOS</h3>
+                      <p class="descripcion-carta">¡Compra para regalar y nosotros lo empacamos por ti! </p>
+                      <a href="productos.html" role="button" class="boton-carta">       
+                          <span class="boton-carta-texto">Ver más</span>
+                          <i class="boton-carta-icono fas fa-arrow-right"></i>
+                      </a>
+                  </div>
+
+              </div>
+          </section>
+          <!-- Finaliza la sección de diferenciales -->
+          
+          <!-- Comienza la sección de productos destacados -->
+          <section class="destacados">
+              <div class="destacados-titulo"><h2>PRODUCTOS DESTACADOS</h2></div>
+              
+              <div class="destacados-carrusel">
+                  <!-- <div class="destacados-carrusel-flechas"> <i class="fas fa-chevron-rigth"></i></div> -->
+                  <div class="elemento"> <a href="detalle-producto.html"><img src="imagenes/productos/Alcancias/Alc_Pig2.jpg"> <p>Producto 1</p> <p>Precio: $/ 40.000</p></a> </div>
+                  <div class="elemento"> <a href="detalle-producto.html"><img src="imagenes/productos/cactus/echinocactus-grusonii-albispinus.jpg"> <p>Producto 1</p> <p>Precio: $/ 40.000</p></a> </div>
+                  <div class="elemento"> <a href="detalle-producto.html"><img src="imagenes/productos/Decoracion/Deco_Dog.jpg"> <p>Producto 1</p> <p>Precio: $/ 40.000</p></a> </div>
+                  <div class="elemento"> <a href="detalle-producto.html"><img src="imagenes/productos/suculentas/Burrito1.jpg"> <p>Producto 1</p> <p>Precio: $/ 40.000</p></a> </div>
+                  <div class="elemento"> <a href="detalle-producto.html"><img src="imagenes/productos/suculentas/Echeveria_Cubic_Frost1.jpg"> <p>Producto 1</p> <p>Precio: $/ 40.000</p></a> </div>
+                  <div class="elemento"> <a href="detalle-producto.html"><img src="imagenes/productos/macetas/Grootdepie.jpg"> <p>Producto 1</p> <p>Precio: $/ 40.000</p></a> </div>
+                  <div class="elemento"> <a href="detalle-producto.html"><img src="imagenes/productos/Terrarios/Terrario1.jpg"> <p>Producto 1</p> <p>Precio: $/ 40.000</p></a> </div>
+                  <div class="elemento"> <a href="detalle-producto.html"><img src="imagenes/productos/abonos/humusliquido.jpg"> <p>Producto 1</p> <p>Precio: $/ 40.000</p></a> </div>
+                  <div class="elemento"> <a href="detalle-producto.html"><img src="imagenes/productos/suculentas/Portulacaria1.jpg"> <p>Producto 1</p> <p>Precio: $/ 40.000</p></a> </div>
+                  <div class="elemento"> <a href="detalle-producto.html"><img src="imagenes/productos/Alcancias/Alc_Vidrio.jpg"> <p>Producto 1</p> <p>Precio: $/ 40.000</p></a> </div>
+                  <div class="elemento"> <a href="detalle-producto.html"><img src="imagenes/productos/Decoracion/Deco_Elefante.jpg"> <p>Producto 1</p> <p>Precio: $/ 40.000</p></a> </div>
+                  <div class="elemento"> <a href="detalle-producto.html"><img src="imagenes/productos/Alcancias/Alc_Pig1.jpg"> <p>Producto 1</p> <p>Precio: $/ 40.000</p></a> </div>
+                  <div class="elemento"> <a href="detalle-producto.html"><img src="imagenes/productos/abonos/alimentoplantas.jpg"> <p>Producto 1</p> <p>Precio: $/ 40.000</p></a> </div>
+              </div>
+
+              <div class="destacados-boton">
+                  <a href="#" role="button" class="boton-carta"><span>Ver más productos</span><i class="fas fa-arrow-right"></i></a>      
+              </div>      
+          </section>
+          <!-- Finaliza la sección de productos destacados -->
+
+          <!-- Comienza sección whatsapp -->
+          <section class="what">
+            <div class="mensaje"><h4>Hola ¿en que puedo ayudarte?</h4></div>
+            <a href="https://web.whatsapp.com/" target="_blank" ><img src="imagenes/whatsapp/whatsapp.png" alt=""></a>
+          </section>
+          <!-- Finaliza sección whatsapp -->
+
+          
+          <!-- Comienza la sección de Servicios -->
+          <section class="servicios">
+              <div class="servicios-contenido-one">
+                  <h3 class="servicios-contenido-titulo">¿VAS A SORPRENDER CON UN REGALO?</h3>
+                  <p class="servicios-contenido-descripcion">¡Nosotros lo empacamos y enviamos por ti!.</p><br>
+                  <a href="#" role="button" class="servicios-contenido-boton"><span>¡Solicitalo aquí!</span><i class="fas fa-arrow-right"></i></a>
+              </div> 
+              
+              <div class="servicios-contenido-two">
+                  <h3 class="servicios-contenido-titulo">PROMOCIONES</h3>
+                  <p class="servicios-contenido-descripcion">¡No te pierdas las ofertas que tenemos para ti!.</p><br>
+                  <a href="#" role="button" class="servicios-contenido-boton"><span>¡Descúbrelas!</span><i class="fas fa-arrow-right"></i></a>
+                </div>
+          </section>
+          <!-- Finaliza la sección de Servicios -->
+
+          <!-- Comienza la sección de Servicios2 -->
+          <section class="servicios2">
+              <div class="servicios2-contenido-one">
+                  <h3 class="servicios2-contenido-titulo">¿DESEAS SUSCRIBIRTE?</h3>
+                  <p class="servicios2-contenido-descripcion">¡Enterate de novedades, tendencias y ofertas!.</p><br>
+                    
+                  <form class="servicios2-contenido-one-formulario" action="">
+                      <input type="email" id="sus" placeholder="Correo eletrónico*"><br>
+                      <input type="checkbox" id="cbox1" value="first_checkbox">Aceptó los términos y condiciones<br>
+                      <input type="submit" id="accion" value="SUSCRIBIRME">
+                  </form>
+              </div>
+      
+              <div class="servicios2-contenido-two">
+                  <h3 class="servicios2-contenido-titulo">¿TE ENCANTA LO QUE ESTAS VIENDO?</h3>
+                  <p class="servicios2-contenido-two-descripcion">¡Comparte con tus familiares y/o amigos!</p><br>
+                  <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://es-la.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+              </div>
+          </section> 
+          <!-- Finaliza la sección de Servicios2 -->
+
+      </main>
+      <!-- Finaliza la sección del main -->
+
+      <!-- Comienza la sección del footer -->
+      <footer class="footer">
+          <div class="footer-contenido">
+            <div class="footer-contenido-nosotros">
+              <h2>Sobre Nosotros</h2>
+              <p>Somos una empresa familiar ubicada <br> en el municipio de Itagüi-Antioquia.</p>
+              <p>Nuestra misión es "llenar de vida tus <br>espacios".</p> 
+              <p>Somos un lugar lleno de naturaleza, <br> construido especialmente para todos <br>ustedes, 
+              para inspirarlos, conozcan <br> productos hermosos y juntos hagamos <br>de este mundo un lugar más feliz.</p>
+              <p>¡Gracias por hacer parte de esta historia.!</p> 
+            </div>
+
+            <div class="footer-contenido-menu">
+              <ul class="footer-contenido-menu-lista">
+                <h2>Lynks de apoyo</h2>
+                <li class="footer-contenido-menu-item"><a href="index.html">Inicio</a></li>
+                <li class="footer-contenido-menu-item"><a href="nosotros.html">Más sobre nosotros</a></li>
+                <li class="footer-contenido-menu-item"><a href="terminos.html">Términos y condiciones</a></li>
+                <li class="footer-contenido-menu-item"><a href="politicas.html">Políticas de privacidad</a></li>
+                <li class="footer-contenido-menu-item"><a href="entrega.html">Políticas de entrega</a></li>
+                <li class="footer-contenido-menu-item"><a href="preguntas.html">Preguntas frecuentes</a></li>            
+              </ul>
+            </div>
+
+            <div class="footer-contenido-informacion">
+              <ul class="footer-contenido-informacion-lista">
+                <h2>Contáctanos</h2>
+                <li class="footer-contenido-informacion-item"><a href="contacto.html">Dirección: Calle 29A 50D-40</a></li>
+                <li class="footer-contenido-informacion-item"><a href="contacto.html">Barrio Yarumito</a></li>
+                <li class="footer-contenido-informacion-item"><a href="contacto.html">Itagüi-Antioquia</a></li>
+                <li class="footer-contenido-informacion-item"><a href="tel:6042775208">Télefono: (604)2775208</a></li>
+                <li class="footer-contenido-informacion-item"><a href="https://web.whatsapp.com/">Celular/WhatsApp: 3177588702</a></li>
+                <li class="footer-contenido-informacion-item"><a href="https://mail.google.com/mail/u/0/?ogbl#inbox">Correo: contactoplantierna@gmail.com</a></li> 
+              </ul>
+            </div>
+
+            <div class="footer-contenido-social">
+              <ul class="footer-contenido-social-lista">
+                <h2>Nuestras redes sociales</h2>
+                <li class="footer-contenido-social-item"><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="footer-contenido-social-item"><a href="https://es-la.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li class="footer-contenido-social-item"><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer-contenido-copyright">
+            <p>Copyright © 2022 │ Plantierna</p>
+          </div>
+      </footer>
+      <!-- Finaliza la sección del footer -->
+
+      <script src="js/registro.js"></script>
+      <script src="js/ventanaemerge.js"></script>
+       
+
+  </body>
+
+</html>

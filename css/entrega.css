@@ -1,0 +1,31 @@
+
+
+.textoentrega{
+    align-items: center;
+    background-color: burlywood;
+    text-align: center;
+    margin-top: 30px;
+    padding: 60px;
+}
+
+.textoentrega p{
+    text-align: left;
+    color:black;
+    padding: 30px;
+}
+
+.textoentrega h2{
+    text-align: center;
+    color: darkgreen;
+}
+
+.textoentrega h1{
+    text-align: center;
+    padding: 10px;
+    color: darkgreen;
+}
+
+.textoentrega img{
+    width: 500px;
+    margin-top: 10px; 
+}

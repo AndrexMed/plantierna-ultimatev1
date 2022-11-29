@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Ecommerce Plantierna, Cactus, Suculentas, Macetas</title>
+      <link rel="stylesheet" href="css/estilos.css">
+      <link rel="stylesheet" href="css/whatsapp.css">
+      <link rel="stylesheet" href="css/nosotros.css">
+      <link rel="stylesheet" href="css/registro.css">
+      <script src="https://kit.fontawesome.com/4945895636.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+      <!-- Comienza header -->
+      <header class="header">
+              <a class="header-item" href="tel:6042775208" target="_blank"><i class="fa-solid fa-phone"></i> (604)2775208 │</a>
+              <a class="header-item" href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i> 3177588701 │</a>
+              <a class="header-item" href="https://mail.google.com/mail/u/0/?ogbl#inbox" target="_blank"><i class="fa-solid fa-envelope"></i> contactoplantierna@gmail.com │</a>  
+              <a class="header-item" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a class="header-item" href="https://es-la.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>           
+              <a class="header-item" href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>     
+      </header>
+      <!-- Termina header -->
+
+      <!-- Comienza barra de navegación -->
+      <nav class="nav">
+              <a class="nav-item" href="index.html"><img src="imagenes/navegacion/lOGO-PLANTIERNABLANCO.png" alt="Logo de Plantierna"></a>
+              <a class="nav-item" href="index.html">Inicio</a>
+              <a class="nav-item" href="productos.html">Productos</a>
+              <a class="nav-item" href="nosotros.html">Nosotros</a>
+              <a class="nav-item" href="blog.html">Blog</a>
+              <a class="nav-item" href="contacto.html">Contacto</a>   
+              <a class="nav-item" href="javascript:abrir()"><span>Acceder/Registrarse</span></a>
+              <a class="nav-item" href="carrito.html"><i class="fa-solid fa-cart-shopping"></i></a> 
+      </nav>
+      <!-- Termina barra de navegación -->
+      
+      <!--Inicia ventana emergen de acceder-->
+      <div class="conteemerge" id="vent">
+        <a href="javascript:cerrar()"><img src="imagenes/error.png" alt="cerrar" ></a>
+        <h2 class="form_title">INICIA SESIÓN</h2>
+
+    
+        <form action="#" method="POST">
+        
+            <label for="correo">Correo Eletrónico</label>
+            <input type="email"  id="correo">
+
+            <label for="clave">Clave</label>
+            <input type="password" id="clave">
+
+            <div class="autenticar">
+                <a href="javascript:abrir()"> <p> ¿Olvidaste tu contraseña?</p></a>
+                <p>¿No tienes cuenta? <a href="#">Registrate</a></p>
+                <a href="https://es-la.facebook.com/"><i class="fa-brands fa-facebook"></i>Ingresar con Facebook</a>
+                <a href="https://mail.google.com/mail/u/0/?ogbl#inbox"><i class="fa-brands fa-google"></i>Ingresar con Google</a>          
+            </div>
+        
+            <br><input type="submit" value="Iniciar Sesión" id="envi">
+        </form>
+      </div>
+      <!--Finaliza ventana emergen de acceder-->   
+
+      <!-- Comienza sección nosotros -->
+      <section class="nosotros">
+
+        <div class="nosotros-titulo"><h2>SOBRE NOSOTROS</h2></div>
+
+        <div class="nosotros-container">    
+                <div class="nosotros-container-imagen"><img src="imagenes/nosotros/about.jpg" alt=""></div>
+
+                <div class="nosotros-container-main">
+                    <h2>PLANTIERNA</h2>
+                    <p>Somos una empresa familiar ubicada en el municipio de Itagüi-Antioquia.</p>
+                    <p>Nuestra misión es <b><i>"Llenar de vida tus espacios".</p></i></b>
+                    <p>Somos un lugar lleno de naturaleza, construido especialmente para todos ustedes, 
+                    para inspirarlos, conozcan productos hermosos y juntos hagamos de este mundo un lugar más feliz.</p>
+                    <p>Desde el 2020 la idea se consolidó y hoy en día tenemos una variedad de plantas especialmente seleccionadas, regalos vivos para empresas y eventos sociales, macetas y objetos para decoración cuidadosamente seleccionadas para así, con mucho orgullo, llevar a tus manos la mejor experiencia con el mundo de las plantas.</p>
+                    
+                    <h2>Creemos en el poder de las plantas</h2>
+                    <p>Las plantas nos hacen sentir bien, nos curan, mejoran la calidad de aire que respiramos, nos conectan con la naturaleza y cultiva en nosotros la paciencia y la contemplación. </p>
+                    <h2>Buscamos el bienestar</h2>
+                    <p>Por medio de las plantas creamos consciencia sobre los seres vivos y sobre nosotros mismos mientras ellas nos dan un equilibrio de mente y cuerpo, nos liberan del estrés de nuestros ritmos de vida acelerados en la ciudad.  </p>
+                    
+                    <h2>Diseñar espacios soñados</h2>
+                    <p>Armonía y belleza es la combinación perfecta que buscamos con los elementos de la naturaleza y poder disfrutar de espacios que nos hacen sentir bien y nos relajan, nuestro objetivo es acercarte a ese tipo de experiencias en casa. </p>                    
+                    <p><b><i>¡Gracias por hacer parte de esta historia.!</i></b></p>
+                </div>
+
+        </div>
+      </section>    
+      <!-- Termina sección nosotros -->
+
+      
+          <!-- Comienza sección whatsapp -->
+          <section class="what">
+            <div class="mensaje"><h4>Hola ¿en que puedo ayudarte?</h4></div>
+            <a href="https://web.whatsapp.com/" target="_blank" ><img src="imagenes/whatsapp/whatsapp.png" alt=""></a>
+          </section>
+          <!-- Finaliza sección whatsapp -->
+          
+      <!-- Finaliza sección whatsapp -->
+
+      <!-- Comienza la sección del footer -->
+      <footer class="footer">
+        <div class="footer-contenido">
+          <div class="footer-contenido-nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una empresa familiar ubicada <br> en el municipio de Itagüi-Antioquia.</p>
+            <p>Nuestra misión es "llenar de vida tus <br>espacios".</p> 
+            <p>Somos un lugar lleno de naturaleza, <br> construido especialmente para todos <br>ustedes, 
+            para inspirarlos, conozcan <br> productos hermosos y juntos hagamos <br>de este mundo un lugar más feliz.</p>
+            <p>¡Gracias por hacer parte de esta historia.!</p> 
+          </div>
+
+          <div class="footer-contenido-menu">
+            <ul class="footer-contenido-menu-lista">
+              <h2>Lynks de apoyo</h2>
+              <li class="footer-contenido-menu-item"><a href="index.html">Inicio</a></li>
+              <li class="footer-contenido-menu-item"><a href="nosotros.html">Más sobre nosotros</a></li>
+              <li class="footer-contenido-menu-item"><a href="terminos.html">Términos y condiciones</a></li>
+              <li class="footer-contenido-menu-item"><a href="politicas.html">Políticas de privacidad</a></li>
+              <li class="footer-contenido-menu-item"><a href="entrega.html">Políticas de entrega</a></li>
+              <li class="footer-contenido-menu-item"><a href="preguntas.html">Preguntas frecuentes</a></li>            
+            </ul>
+          </div>
+
+          <div class="footer-contenido-informacion">
+            <ul class="footer-contenido-informacion-lista">
+              <h2>Contáctanos</h2>
+              <li class="footer-contenido-informacion-item"><a href="contacto.html">Dirección: Calle 29A 50D-40</a></li>
+              <li class="footer-contenido-informacion-item"><a href="contacto.html">Barrio Yarumito</a></li>
+              <li class="footer-contenido-informacion-item"><a href="contacto.html">Itagüi-Antioquia</a></li>
+              <li class="footer-contenido-informacion-item"><a href="tel:6042775208">Télefono: (604)2775208</a></li>
+              <li class="footer-contenido-informacion-item"><a href="https://web.whatsapp.com/">Celular/WhatsApp: 3177588702</a></li>
+              <li class="footer-contenido-informacion-item"><a href="https://mail.google.com/mail/u/0/?ogbl#inbox">Correo: contactoplantierna@gmail.com</a></li> 
+            </ul>
+          </div>
+
+          <div class="footer-contenido-social">
+            <ul class="footer-contenido-social-lista">
+              <h2>Nuestras redes sociales</h2>
+              <li class="footer-contenido-social-item"><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+              <li class="footer-contenido-social-item"><a href="https://es-la.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li class="footer-contenido-social-item"><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-contenido-copyright">
+          <p>Copyright © 2022 │ Plantierna</p>
+        </div>
+    </footer>
+    <!-- Finaliza la sección del footer -->
+
+    
+    <script src="js/ventanaemerge.js"></script>
+</body>
+
+</html>

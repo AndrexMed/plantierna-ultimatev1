@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Ecommerce Plantierna, Cactus, Suculentas, Macetas</title>
+      <link rel="stylesheet" href="css/estilos.css">
+      <link rel="stylesheet" href="css/registro.css">
+      <link rel="stylesheet" href="css/whatsapp.css"> 
+      <script src="https://kit.fontawesome.com/4945895636.js" crossorigin="anonymous"></script>
+      
+    </head>
+
+    <body>
+
+        <!--Inicia ventana emergen de acceder-->
+        <div class="conteemerge" id="vent">
+            <a href="javascript:cerrar()"><img src="imagenes/error.png" alt="cerrar" ></a>
+            <h2 class="form_title">INICIA SESIÓN</h2>
+
+        
+            <form action="#" method="POST">
+            
+                <label for="correo">Correo Eletrónico</label>
+                <input type="email"  id="correo">
+
+                <label for="clave">Clave</label>
+                <input type="password" id="clave">
+
+                <div class="autenticar">
+                    <a href="javascript:abrir()"> <p> ¿Olvidaste tu contraseña?</p></a>
+                    <p>¿No tienes cuenta? <a href="#">Registrate</a></p>
+                    <a href="https://es-la.facebook.com/"><i class="fa-brands fa-facebook"></i>Ingresar con Facebook</a>
+                    <a href="https://mail.google.com/mail/u/0/?ogbl#inbox"><i class="fa-brands fa-google"></i>Ingresar con Google</a>          
+                </div>
+            
+                <br><input type="submit" value="Iniciar Sesión" id="envi">
+            </form>
+        </div>
+        <!--Finaliza ventana emergen de acceder-->   
+
+    </body>
+      
+</html>

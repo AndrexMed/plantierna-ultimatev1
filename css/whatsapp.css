@@ -1,0 +1,37 @@
+/* Inicio estilos whatsApp */
+.what{
+    width: 100px;
+    position: fixed;
+    top: 0;
+    margin-top: 850px;
+    margin-left: 25px; 
+    width: 85px;     
+}
+
+.what img{
+    height: 80px;
+}
+
+/* .what img:hover{
+    transform: scale(1.2); 
+} */
+/* Fin estilos whatsApp */
+
+/* Mensaje whatsApp */
+.mensaje{
+    position: absolute;
+    background-color: #005227;
+    color: white;
+    width: 200px;
+    border-radius: 8px;
+    text-align: center;
+    left: 80px;
+    margin-top: 5px;
+    display: none;
+    padding: 10px;
+    
+}
+.what:hover .mensaje{
+    display: block;
+}
+

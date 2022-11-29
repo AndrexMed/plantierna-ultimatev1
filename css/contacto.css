@@ -1,0 +1,119 @@
+.contacto{
+    height: 85%;
+    width: 100%;
+    padding: 52px 52px 0 52px;  
+    margin-top: 8%;  
+}
+
+.contacto-contenido{
+    height:53%;
+    width: 100%;  
+    display: flex;
+}
+
+.contacto-contenido-formulario .form_title{
+    text-align: center;
+    color:darkgreen;
+    margin-bottom: 10px;
+}
+
+.contacto-contenido-formulario{
+    height: 100%;
+    width: 100%;
+    background:#F2C888;
+    padding: 80px;    
+}
+
+.formulario{
+    background-color:teal;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: justify;
+    padding: 60px;
+    border-radius: 20px;
+    color:#fff;
+}
+
+.formulario .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    border:1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+
+.formulario .btn-enviar{
+    padding: 15px;
+    border: none;
+    outline: 0px;
+    background:#006400;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.formulario .btn-enviar:hover{
+    background:#00bb2d;
+} 
+
+.contacto-contenido-ubicacion{
+    height: 100%;    
+    background-color:teal; 
+    padding: 80px;   
+}
+
+.contacto-contenido-ubicacion .form_title{
+    color:#fff;
+    text-align: center;
+    padding: 5px;
+}
+
+.contacto-contenido-ubicacion-item{
+    background: #F2C888;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 62px;
+    border-radius: 20px;
+}
+
+.contacto-contenido-ubicacion-item a{
+    padding-bottom: 2px;
+    color:darkgreen;
+    text-decoration: none;  
+    font-weight: bold;  
+}
+
+.contacto-contenido-ubicacion-redes{
+    background-color: #F2C888;
+    height: 50%;
+    width: 100%;
+    display: inline-block;  
+    text-align: center;
+    margin-top: 64px;
+    padding: 25px;
+    border-radius: 20px;
+    
+}
+
+.contacto-contenido-ubicacion-redes .form_title{
+    margin-bottom: 20px;
+    color:darkgreen;
+}
+
+.contacto-contenido-ubicacion-redes a{
+    margin: 20px;
+    color:darkgreen;
+}
+
+.mapa-google{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    
+}
+

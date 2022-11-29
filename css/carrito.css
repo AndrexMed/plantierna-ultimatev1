@@ -1,0 +1,82 @@
+.carrito{
+    width: 100%;
+    padding: 60px;
+    margin-top: 8%;
+}
+
+.conte-carrito{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    border: solid 3px #005227; 
+    align-items: center;
+    padding: 30px;
+}
+
+.conte-carrito img{
+    width: 50%;
+    border-radius: 10px;
+}
+
+.conte-carrito .descri{
+    text-align: cente;
+}
+
+.listapro{
+    text-align: center;   
+}
+
+.listaprodu img{
+    margin-bottom: 10px;
+}
+
+.listaprodu .descri{
+    color: #005227;
+}
+
+.tit{
+    color: #005227;
+}
+
+.inf{
+    padding-top: 30px;
+}
+
+.info{
+    margin-top: 30px;
+    background-color: rgb(202, 202, 202);
+    border-radius: 10px;
+    width: 100px;
+    
+}
+.se-cupon{
+    display: flex;
+    justify-content: space-around; 
+    border: solid 3px #005227;   
+    align-items: center;
+    color: #005227; 
+    padding: 30px;
+}
+
+form input[type="num"], input[type="submit"]{
+    width: 100%;   
+}
+
+form input[type="num"], input[type="submit"]:hover{
+    color: #00bb2d;
+}
+
+.mtodo img{
+    width: 400px;  
+    height: 200px;  
+}
+
+.mtodo h3{
+    margin-left: 45px;    
+}
+
+.title-carrito h2{
+    text-align: center;
+    margin-top: 20px 0 20px 0;
+    color: #005227;
+}

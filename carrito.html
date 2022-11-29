@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Ecommerce Plantierna, Cactus, Suculentas, Macetas</title>
+      <link rel="stylesheet" href="css/estilos.css">
+      <link rel="stylesheet" href="css/whatsapp.css">
+      <link rel="stylesheet" href="css/registro.css">
+      <link rel="stylesheet" href="css/carrito.css">
+      <script src="https://kit.fontawesome.com/4945895636.js" crossorigin="anonymous"></script>
+      <script src="registro.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+      <!-- Comienza header -->
+      <header class="header">
+              <a class="header-item" href="tel:6042775208" target="_blank"><i class="fa-solid fa-phone"></i> (604)2775208 │</a>
+              <a class="header-item" href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i> 3177588701 │</a>
+              <a class="header-item" href="https://mail.google.com/mail/u/0/?ogbl#inbox" target="_blank"><i class="fa-solid fa-envelope"></i> contactoplantierna@gmail.com │</a>  
+              <a class="header-item" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a class="header-item" href="https://es-la.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>           
+              <a class="header-item" href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>     
+      </header>
+      <!-- Termina header -->
+
+      <!-- Comienza barra de navegación -->
+      <nav class="nav">
+              <a class="nav-item" href="index.html"><img src="imagenes/navegacion/lOGO-PLANTIERNABLANCO.png" alt="Logo de Plantierna"></a>
+              <a class="nav-item" href="index.html">Inicio</a>
+              <a class="nav-item" href="productos.html">Productos</a>
+              <a class="nav-item" href="nosotros.html">Nosotros</a>
+              <a class="nav-item" href="blog.html">Blog</a>
+              <a class="nav-item" href="contacto.html">Contacto</a>   
+              <a class="nav-item" href="javascript:abrir()"><span>Acceder/Registrarse</span></a>
+              <a class="nav-item" href="carrito.html"><i class="fa-solid fa-cart-shopping"></i></a> 
+      </nav>
+      <!-- Termina barra de navegación -->
+
+      <!--Inicia ventana emergen de acceder-->
+      <div class="conteemerge" id="vent">
+        <a href="javascript:cerrar()"><img src="imagenes/error.png" alt="cerrar" ></a>
+        <h2 class="form_title">INICIA SESIÓN</h2>
+
+    
+        <form action="#" method="POST">
+        
+            <label for="correo">Correo Eletrónico</label>
+            <input type="email"  id="correo">
+
+            <label for="clave">Clave</label>
+            <input type="password" id="clave">
+
+            <div class="autenticar">
+                <a href="javascript:abrir()"> <p> ¿Olvidaste tu contraseña?</p></a>
+                <p>¿No tienes cuenta? <a href="#">Registrate</a></p>
+                <a href="https://es-la.facebook.com/"><i class="fa-brands fa-facebook"></i>Ingresar con Facebook</a>
+                <a href="https://mail.google.com/mail/u/0/?ogbl#inbox"><i class="fa-brands fa-google"></i>Ingresar con Google</a>          
+            </div>
+        
+            <br><input type="submit" value="Iniciar Sesión" id="envi">
+        </form>
+      </div>
+      <!--Finaliza ventana emergen de acceder-->
+      
+      <!--Comienza seccion carrito compras-->
+      <section class="carrito">
+
+        <div class="title-carrito">
+            <h2>CARRITO DE COMPRAS</h2>
+        </div>
+          
+        <div class="conte-carrito">            
+            <div class="listaprodu">
+                <h3 class="tit" >NOMBRE</h3>
+                <img src="imagenes/productos/suculentas/Aurora1.jpg" alt="">
+                <p class="descri">Planta Suculenta Aurora.</p>
+            </div>
+
+            <div class="precio">
+                <h3 class="tit">PRECIO</h3>
+                <h4 class="inf">$20.000</h4>
+            </div>
+
+            <div class="cantidad">
+                <h3 class="tit">CANTIDAD</h3>
+                <h4 class="info">2 <></h4>
+            </div>
+
+            <div class="total">
+                <h3 class="tit">TOTAL</h3>
+                <h4 class="inf">$40.000</h4>
+            </div>
+        </div>
+
+        <div class="conte-carrito">         
+           <div class="listaprodu">
+                <img src="imagenes/productos/cactus/Cactus_Opuntia1.jpg" alt="">
+                <p class="descri">Planta Cactus Opuntia.</p>
+            </div>
+
+            <div class="precio">
+                <h4 class="inf">$30.000 </h4>
+            </div>
+
+            <div class="cantidad">
+                <h4 class="info">3 <></h4>
+            </div>
+
+            <div class="total">
+                <h4 class="inf">$90.000</h4>
+            </div>
+        </div>
+        
+        <div class="se-cupon">
+            <div class="mtodo">
+                <h3>Forma de pago que puedes usar</h3>
+                <img src="imagenes/metodos-pago.png" alt="">
+            </div>
+          
+            <div class="cupon">
+                <h3>¿Tienes un cupón de descuento?</h3>
+                <form action="">
+                <input type="num">
+                <input type="submit" value="APLICAR">
+                </form>
+            </div>
+
+            <div class="subtotal">
+                <h3 class="tit">Subtotal: $130.000 </h3>
+                <a href="https://www.paypal.com/co" target="_blank"> <input type="submit" value="PAGAR"></a>
+            </div>
+        </div>
+      </section> 
+      <!--Finaliza seccion carrito compras-->
+
+
+<!-- Comienza la sección del footer -->
+<footer class="footer">
+    <div class="footer-contenido">
+      <div class="footer-contenido-nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos una empresa familiar ubicada <br> en el municipio de Itagüi-Antioquia.</p>
+        <p>Nuestra misión es "llenar de vida tus <br>espacios".</p> 
+        <p>Somos un lugar lleno de naturaleza, <br> construido especialmente para todos <br>ustedes, 
+        para inspirarlos, conozcan <br> productos hermosos y juntos hagamos <br>de este mundo un lugar más feliz.</p>
+        <p>¡Gracias por hacer parte de esta historia.!</p> 
+      </div>
+
+      <div class="footer-contenido-menu">
+        <ul class="footer-contenido-menu-lista">
+          <h2>Lynks de apoyo</h2>
+          <li class="footer-contenido-menu-item"><a href="index.html">Inicio</a></li>
+          <li class="footer-contenido-menu-item"><a href="nosotros.html">Más sobre nosotros</a></li>
+          <li class="footer-contenido-menu-item"><a href="terminos.html">Términos y condiciones</a></li>
+          <li class="footer-contenido-menu-item"><a href="politicas.html">Políticas de privacidad</a></li>
+          <li class="footer-contenido-menu-item"><a href="entrega.html">Políticas de entrega</a></li>
+          <li class="footer-contenido-menu-item"><a href="preguntas.html">Preguntas frecuentes</a></li>            
+        </ul>
+      </div>
+
+      <div class="footer-contenido-informacion">
+        <ul class="footer-contenido-informacion-lista">
+          <h2>Contáctanos</h2>
+          <li class="footer-contenido-informacion-item"><a href="contacto.html">Dirección: Calle 29A 50D-40</a></li>
+          <li class="footer-contenido-informacion-item"><a href="contacto.html">Barrio Yarumito</a></li>
+          <li class="footer-contenido-informacion-item"><a href="contacto.html">Itagüi-Antioquia</a></li>
+          <li class="footer-contenido-informacion-item"><a href="tel:6042775208">Télefono: (604)2775208</a></li>
+          <li class="footer-contenido-informacion-item"><a href="https://web.whatsapp.com/">Celular/WhatsApp: 3177588702</a></li>
+          <li class="footer-contenido-informacion-item"><a href="https://mail.google.com/mail/u/0/?ogbl#inbox">Correo: contactoplantierna@gmail.com</a></li> 
+        </ul>
+      </div>
+
+      <div class="footer-contenido-social">
+        <ul class="footer-contenido-social-lista">
+          <h2>Nuestras redes sociales</h2>
+          <li class="footer-contenido-social-item"><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+          <li class="footer-contenido-social-item"><a href="https://es-la.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li class="footer-contenido-social-item"><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-contenido-copyright">
+      <p>Copyright © 2022 │ Plantierna</p>
+    </div>
+</footer>
+<!-- Finaliza la sección del footer -->
+
+<script src="js/ventanaemerge.js"></script>
+ 
+
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+.form_title{ 
+    text-align: center;
+    color: white;
+    
+    
+}
+.conteemerge label{
+    color: white;
+}
+.form_title2{
+    text-align: center;
+   
+}
+form input[type="text"], input[type="num"], input[type="email"], input[type="password"]
+{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 35px;
+}
+
+.conte{
+    width: 50%;
+    margin: auto;
+    background-color: #dddddd;
+    margin-top: 46px;
+    margin-bottom: 46px;
+    padding: 20px;  
+}
+
+.conteemerge{
+    width: 50%;   
+    background-color: #dddddd;
+    margin-top: 200px;
+    margin-bottom: 46px;
+    padding: 10px;  
+    position: absolute;
+    border-radius: 10px;
+    left: 27%;
+    display: none;
+    z-index: 3;
+    background: linear-gradient(rgba(2, 2, 3, 0.75), rgba(5, 7, 12, 0.808));
+    
+   
+}
+
+.conte  p{
+    text-align: center;
+    
+}
+
+.conter{
+    width: 50%;
+    margin: auto;
+    background-color: #dddddd;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    padding: 20px;  
+ }
+
+textarea{
+    width: 100%;
+    
+    
+}
+#envi{
+    width: 70px;
+    margin-top: 20px;
+}
+#envi:hover{
+    background-color: FEFAE0;
+}
+.mapa{
+    
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.conteemerge img{
+    position: absolute;
+    width: 30px;
+    right: 30px;
+    
+}
+.autenticar{
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    
+}
+.autenticar a{
+    color: white;
+}
+#envi{
+    width: 100%;
+    background: darkgreen;
+    color: white;
+    height: 30px;
+    border-radius: 10px;
+}
+#envi:hover{
+    background-color: white;
+}
+#envi:hover, a{
+    color: darkgreen;
+}
+

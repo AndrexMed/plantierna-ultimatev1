@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Ecommerce Plantierna, Cactus, Suculentas, Macetas</title>
+      <link rel="stylesheet" href="css/estilos.css">
+      <link rel="stylesheet" href="css/whatsapp.css">
+      <link rel="stylesheet" href="css/registro.css">
+      <link rel="stylesheet" href="css/politicas.css">   
+      <link rel="stylesheet" href="css/preguntas.css">     
+      <script src="https://kit.fontawesome.com/4945895636.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+      <!-- Comienza header -->
+      <header class="header">
+              <a class="header-item" href="tel:6042775208" target="_blank"><i class="fa-solid fa-phone"></i> (604)2775208 │</a>
+              <a class="header-item" href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i> 3177588701 │</a>
+              <a class="header-item" href="https://mail.google.com/mail/u/0/?ogbl#inbox" target="_blank"><i class="fa-solid fa-envelope"></i> contactoplantierna@gmail.com │</a>  
+              <a class="header-item" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a class="header-item" href="https://es-la.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>           
+              <a class="header-item" href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>     
+      </header>
+      <!-- Termina header -->
+
+      <!-- Comienza barra de navegación -->
+      <nav class="nav">
+              <a class="nav-item" href="index.html"><img src="imagenes/navegacion/lOGO-PLANTIERNABLANCO.png" alt="Logo de Plantierna"></a>
+              <a class="nav-item" href="index.html">Inicio</a>
+              <a class="nav-item" href="productos.html">Productos</a>
+              <a class="nav-item" href="nosotros.html">Nosotros</a>
+              <a class="nav-item" href="blog.html">Blog</a>
+              <a class="nav-item" href="contacto.html">Contacto</a>   
+              <a class="nav-item" href="javascript:abrir()"><span>Acceder/Registrarse</span></a>
+              <a class="nav-item" href="carrito.html"><i class="fa-solid fa-cart-shopping"></i></a> 
+      </nav>
+      <!-- Termina barra de navegación -->
+
+      <!--Inicia ventana emergen de acceder-->
+      <div class="conteemerge" id="vent">
+        <a href="javascript:cerrar()"><img src="imagenes/error.png" alt="cerrar" ></a>
+        <h2 class="form_title">INICIA SESIÓN</h2>
+
+    
+        <form action="#" method="POST">
+        
+            <label for="correo">Correo Eletrónico</label>
+            <input type="email"  id="correo">
+
+            <label for="clave">Clave</label>
+            <input type="password" id="clave">
+
+            <div class="autenticar">
+                <a href="javascript:abrir()"> <p> ¿Olvidaste tu contraseña?</p></a>
+                <p>¿No tienes cuenta? <a href="#">Registrate</a></p>
+                <a href="https://es-la.facebook.com/"><i class="fa-brands fa-facebook"></i>Ingresar con Facebook</a>
+                <a href="https://mail.google.com/mail/u/0/?ogbl#inbox"><i class="fa-brands fa-google"></i>Ingresar con Google</a>          
+            </div>
+        
+            <br><input type="submit" value="Iniciar Sesión" id="envi">
+        </form>
+      </div>
+      <!--Finaliza ventana emergen de acceder-->
+
+      <!--main-->
+     <main>
+ 
+        <section class="question">
+            <div class="menugio">
+                <div class="elementos">
+                    <a href="terminos.html">Términos y condiciones</a>
+                </div>
+                <div class="elementos">
+                    <a href="politicas.html">Políticas de privacidad</a>
+                </div>
+                <div class="elementos">
+                    <a href="preguntas.html">Preguntas frecuentes</a>
+                </div>
+                <div class="elementos">
+                    <a href="entrega.html">Políticas de entrega</a>
+                </div>
+            </div>
+   
+          <h1 class="titulo">PREGUNTAS FRECUENTES</h1>
+          <h2 class="titulo">¿En qué podemos ayudarte?</h2>
+          <div class="imagen"><img src="imagenes/preguntas.jpg" alt=""></div>
+          <div class="categorias1" id="categorias">
+            <div class="categoria" data-categoria="metodos-pago">
+            <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.19 7h2.81v15h-21v-5h-2.81v-15h21v5zm1.81 1h-19v13h19v-13zm-9.5 1c3.036 0 5.5 2.464 5.5 5.5s-2.464 5.5-5.5 5.5-5.5-2.464-5.5-5.5 2.464-5.5 5.5-5.5zm0 1c2.484 0 4.5 2.016 4.5 4.5s-2.016 4.5-4.5 4.5-4.5-2.016-4.5-4.5 2.016-4.5 4.5-4.5zm.5 8h-1v-.804c-.767-.16-1.478-.689-1.478-1.704h1.022c0 .591.326.886.978.886.817 0 1.327-.915-.167-1.439-.768-.27-1.68-.676-1.68-1.693 0-.796.573-1.297 1.325-1.448v-.798h1v.806c.704.161 1.313.673 1.313 1.598h-1.018c0-.788-.727-.776-.815-.776-.55 0-.787.291-.787.622 0 .247.134.497.957.768 1.056.344 1.663.845 1.663 1.746 0 .651-.376 1.288-1.313 1.448v.788zm6.19-11v-4h-19v13h1.81v-9h17.19z"/></svg>
+            <p>Métodos de pago</p>
+          </div>
+        
+          
+            <div class="categoria" data-categoria="entregas">
+            <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M7 24h-5v-9h5v1.735c.638-.198 1.322-.495 1.765-.689.642-.28 1.259-.417 1.887-.417 1.214 0 2.205.499 4.303 1.205.64.214 1.076.716 1.175 1.306 1.124-.863 2.92-2.257 2.937-2.27.357-.284.773-.434 1.2-.434.952 0 1.751.763 1.751 1.708 0 .49-.219.977-.627 1.356-1.378 1.28-2.445 2.233-3.387 3.074-.56.501-1.066.952-1.548 1.393-.749.687-1.518 1.006-2.421 1.006-.405 0-.832-.065-1.308-.2-2.773-.783-4.484-1.036-5.727-1.105v1.332zm-1-8h-3v7h3v-7zm1 5.664c2.092.118 4.405.696 5.999 1.147.817.231 1.761.354 2.782-.581 1.279-1.172 2.722-2.413 4.929-4.463.824-.765-.178-1.783-1.022-1.113 0 0-2.961 2.299-3.689 2.843-.379.285-.695.519-1.148.519-.107 0-.223-.013-.349-.042-.655-.151-1.883-.425-2.755-.701-.575-.183-.371-.993.268-.858.447.093 1.594.35 2.201.52 1.017.281 1.276-.867.422-1.152-.562-.19-.537-.198-1.889-.665-1.301-.451-2.214-.753-3.585-.156-.639.278-1.432.616-2.164.814v3.888zm3.79-19.913l3.21-1.751 7 3.86v7.677l-7 3.735-7-3.735v-7.719l3.784-2.064.002-.005.004.002zm2.71 6.015l-5.5-2.864v6.035l5.5 2.935v-6.106zm1 .001v6.105l5.5-2.935v-6l-5.5 2.83zm1.77-2.035l-5.47-2.848-2.202 1.202 5.404 2.813 2.268-1.167zm-4.412-3.425l5.501 2.864 2.042-1.051-5.404-2.979-2.139 1.166z"/></svg>
+    
+            <p>Entregas</p>
+          </div>
+          
+            <div class="categoria" data-categoria="seguridad">
+            <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 0c-3.371 2.866-5.484 3-9 3v11.535c0 4.603 3.203 5.804 9 9.465 5.797-3.661 9-4.862 9-9.465v-11.535c-3.516 0-5.629-.134-9-3zm0 1.292c2.942 2.31 5.12 2.655 8 2.701v10.542c0 3.891-2.638 4.943-8 8.284-5.375-3.35-8-4.414-8-8.284v-10.542c2.88-.046 5.058-.391 8-2.701zm5 7.739l-5.992 6.623-3.672-3.931.701-.683 3.008 3.184 5.227-5.878.728.685z"/></svg>
+            <p>Seguridad</p>
+          </div>
+          
+            <div class="categoria" data-categoria="cuenta">
+            <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M9.484 15.696l-.711-.696-2.552 2.607-1.539-1.452-.698.709 2.25 2.136 3.25-3.304zm0-5l-.711-.696-2.552 2.607-1.539-1.452-.698.709 2.25 2.136 3.25-3.304zm0-5l-.711-.696-2.552 2.607-1.539-1.452-.698.709 2.25 2.136 3.25-3.304zm10.516 11.304h-8v1h8v-1zm0-5h-8v1h8v-1zm0-5h-8v1h8v-1zm4-5h-24v20h24v-20zm-1 19h-22v-18h22v18z"/></svg>
+            <p>Cuenta</p>
+          </div>
+        </div>
+    
+        <!--Preguntas metodos-pago-->
+        <div class="preguntas">
+          <div class="contenedor-preguntas" data-categoria="metodos-pago">
+            <div class="contenedor-pregunta">
+              <p class="pregunta">¿Que metodos de pago tienen? <img src="imagenes/politicas/iconmonstr-plus-square-filled.svg" alt="ver mas"></p>
+              <p class="respuesta">En Midgard tenemos varias formas de pago:<br>
+                <p>• Efectivo: Si estas ubicado en Medellin y su Area Metropolitana puedes realizar el pago en efectivo al momento de recibir su pedido.<br>
+                • Consignación: Consigna el valor de tu compra a nuestra cuenta de Ahorros Bancolombia # 00218981976 a nombre de Miguel Angel Aguirre cc 1.017.476.787. Si realizas la consignación desde una ciudad fuera de Medellín o Area Metropolitana, recuerda deberás consignar $10.100 adicionales al valor de tu compra.<br>
+                • Transferencia bancaria: Transfiere el valor de tu compra desde un cajero electrónico o un Pac electrónico a nuestro número de cuenta Ahorros Bancolombia # 00218981976 a nombre de Miguel Angel Aguirre cc 1.017.476.787.­­</p><br></p>
+            </div>
+            <div class="contenedor-pregunta">
+              <p class="pregunta">¿Cuál es el costo del envío? <img src="imagenes/politicas/iconmonstr-plus-square-filled.svg" alt="ver mas"></p>
+              <p class="respuesta">El costo de envío será mostrado en base al total de la compra y dirección de envío, en el checkout, en el momento previo a la compra.</p>
+            </div>
+          </div>
+       
+        <!--Preguntas entregas-->
+        
+          <div class="contenedor-preguntas" data-categoria="entregas">
+            <div class="contenedor-pregunta">
+              <p class="pregunta">¿Cómo se realizan los envíos? <img src="imagenes/politicas/iconmonstr-plus-square-filled.svg" alt="ver mas"></p>
+              <p class="respuesta">Trabajamos con: Servientrega que nos asegura que la mercancía será tratada con el mayor cuidado y en caso que no sea así responde por los productos dañados.</p>
+              <p class="respuesta">El tiempo de entrega en Medellin y su Área Metropolitana es de 1 a 3 dias habiles.</p>
+              <p class="respuesta">Para el resto del país es de 3 a 7 dias hábiles.</p>
+            </div>
+            <div class="contenedor-pregunta">
+              <p class="pregunta">¿Dónde puedo recibir mi pedido? <img src="imagenes/politicas/iconmonstr-plus-square-filled.svg" alt="ver mas"></p>
+              <p class="respuesta">Realizamos envíos a toda Colombia</p>             
+            </div>
+          </div>
+        
+        <!--Preguntas seguridad-->
+        
+          <div class="contenedor-preguntas" data-categoria="seguridad">
+            <div class="contenedor-pregunta">
+              <p class="pregunta">¿Qué debo hacer si el producto no llega en buen estado o incompleto? <img src="imagenes/politicas/iconmonstr-plus-square-filled.svg" alt="ver mas"></p>
+              <p class="respuesta">Ponte en contacto con nosotros a traves del whatsApp 3177588702 o el correo electrónico contactoplantierna@gmail.com con las fotos del producto para hacer la reclamación y darte solución. Para cualquier reclamación debes contactarnos máximo 3 días luego de la recepción de tu pedido.</p>
+            </div>
+            <div class="contenedor-pregunta">
+              <p class="pregunta">¿Puedo comprar seguro? <img src="imagenes/politicas/iconmonstr-plus-square-filled.svg" alt="ver mas"></p>
+              <p class="respuesta">Nuestros métodos de pago son a través de pasarelas de pago seguras y confiables, adicional tenemos el servicio de pago contraentrega para que solo pagues una vez recibas tu pedido.</p>
+            </div>
+          </div>
+        <!--Preguntas Cuenta-->
+        
+          <div class="contenedor-preguntas" data-categoria="cuenta">
+            <div class="contenedor-pregunta">
+              <p class="pregunta">¿Como confirmo mi cuenta ? <img src="imagenes/politicas/iconmonstr-plus-square-filled.svg" alt="ver mas"></p>
+              <p class="respuesta">La página permite registro e inicio de sesion con tu cuenta de google o facebook, garantizando asi que seas tu quien inicie sesión.</p>
+            </div>
+            <div class="contenedor-pregunta">
+              <p class="pregunta">¿Que hago si olvido mi contraseña?<img src="imagenes/politicas/iconmonstr-plus-square-filled.svg" alt="ver mas"></p>
+              <p class="respuesta">El formulario de inicio de sesión tiene la opcion de recuperacion de clave en caso de olvido a traves de mensaje al correo electronico inscrito previamente en la página.</p>
+            </div>
+          </div>
+        </div>
+    </section>   
+    
+       <!-- Comienza sección whatsapp -->
+       <section class="what">
+        <div class="mensaje"><h4>Hola ¿en que puedo ayudarte?</h4></div>
+        <a href="https://web.whatsapp.com/" target="_blank" ><img src="imagenes/whatsapp/whatsapp.png" alt=""></a>
+      </section>
+      <!-- Finaliza sección whatsapp -->
+             
+
+        <!-- Comienza la sección del footer -->
+        <footer class="footer">
+           <div class="footer-contenido">
+             <div class="footer-contenido-nosotros">
+               <h2>Sobre Nosotros</h2>
+               <p>Somos una empresa familiar ubicada <br> en el municipio de Itagüi-Antioquia.</p>
+               <p>Nuestra misión es "llenar de vida tus <br>espacios".</p> 
+               <p>Somos un lugar lleno de naturaleza, <br> construido especialmente para todos <br>ustedes, 
+               para inspirarlos, conozcan <br> productos hermosos y juntos hagamos <br>de este mundo un lugar más feliz.</p>
+               <p>¡Gracias por hacer parte de esta historia.!</p> 
+             </div>
+         
+             <div class="footer-contenido-menu">
+               <ul class="footer-contenido-menu-lista">
+                 <h2>Lynks de apoyo</h2>
+                 <li class="footer-contenido-menu-item"><a href="index.html">Inicio</a></li>
+                 <li class="footer-contenido-menu-item"><a href="nosotros.html">Más sobre nosotros</a></li>
+                 <li class="footer-contenido-menu-item"><a href="terminos.html">Términos y condiciones</a></li>
+                 <li class="footer-contenido-menu-item"><a href="politicas.html">Políticas de privacidad</a></li>
+                 <li class="footer-contenido-menu-item"><a href="entrega.html">Políticas de entrega</a></li>
+                 <li class="footer-contenido-menu-item"><a href="preguntas.html">Preguntas frecuentes</a></li>            
+               </ul>
+             </div>
+         
+             <div class="footer-contenido-informacion">
+               <ul class="footer-contenido-informacion-lista">
+                 <h2>Contáctanos</h2>
+                 <li class="footer-contenido-informacion-item"><a href="contacto.html">Dirección: Calle 29A 50D-40</a></li>
+                 <li class="footer-contenido-informacion-item"><a href="contacto.html">Barrio Yarumito</a></li>
+                 <li class="footer-contenido-informacion-item"><a href="contacto.html">Itagüi-Antioquia</a></li>
+                 <li class="footer-contenido-informacion-item"><a href="tel:6042775208">Télefono: (604)2775208</a></li>
+                 <li class="footer-contenido-informacion-item"><a href="https://web.whatsapp.com/">Celular/WhatsApp: 3177588702</a></li>
+                 <li class="footer-contenido-informacion-item"><a href="https://mail.google.com/mail/u/0/?ogbl#inbox">Correo: contactoplantierna@gmail.com</a></li> 
+               </ul>
+             </div>
+         
+             <div class="footer-contenido-social">
+               <ul class="footer-contenido-social-lista">
+                 <h2>Nuestras redes sociales</h2>
+                 <li class="footer-contenido-social-item"><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                 <li class="footer-contenido-social-item"><a href="https://es-la.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                 <li class="footer-contenido-social-item"><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+               </ul>
+             </div>
+           </div>
+       
+           <div class="footer-contenido-copyright">
+             <p>Copyright © 2022 │ Plantierna</p>
+           </div>
+        </footer>
+        <!-- Finaliza la sección del footer -->
+  
+
+        <script src="js/ventanaemerge.js"></script>
+        <script src="js/categorias.js"></script>
+        <script src="./js/preguntasfrecuentes.js"></script>
+
+
+</body>
+
+</html>
